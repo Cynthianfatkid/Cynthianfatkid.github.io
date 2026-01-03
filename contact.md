@@ -1,9 +1,8 @@
 ---
-layout: page
 title: Contact
 permalink: /contact/
 ---
 
-- GitHub: [github.com/Cynthianfatkid](https://github.com/Cynthianfatkid)
-
-Add LinkedIn and email when you’re ready.
+- GitHub: https://github.com/Cynthianfatkid
+- LinkedIn: coming
+- Email: soon

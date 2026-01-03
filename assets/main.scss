@@ -16,22 +16,35 @@
   --code-bg: rgba(230, 237, 243, 0.06);
 }
 
-html, body {
+html,
+body {
   background: var(--bg);
   color: var(--text);
 }
 
-.site-header, .site-footer {
+/* Header / footer base */
+.site-header,
+.site-footer {
   background: var(--bg);
   border-color: var(--border);
 }
 
-.site-title, .site-title:visited,
-.page-link, .page-link:visited {
+/* Add a subtle divider so the header feels "anchored" */
+.site-header {
+  border-bottom: 1px solid var(--border);
+}
+
+/* Site title + default nav links */
+.site-title,
+.site-title:visited,
+.page-link,
+.page-link:visited {
   color: var(--text);
 }
 
-a, a:visited {
+/* Links */
+a,
+a:visited {
   color: var(--link);
 }
 
@@ -39,12 +52,17 @@ a:hover {
   color: var(--link-hover);
 }
 
-p, li {
+/* Body text */
+p,
+li {
   color: var(--muted);
 }
 
 /* Panels / blocks */
-pre, code, .highlighter-rouge .highlight, blockquote {
+pre,
+code,
+.highlighter-rouge .highlight,
+blockquote {
   background: var(--code-bg);
   border-color: var(--border);
 }
@@ -54,7 +72,8 @@ code {
 }
 
 /* Card-ish styling for post lists on the home page */
-.post-list > li, .home .post-list > li {
+.post-list > li,
+.home .post-list > li {
   border: 1px solid var(--border);
   border-radius: 14px;
   padding: 14px 16px;
@@ -69,16 +88,28 @@ code {
 hr {
   border-color: var(--border);
 }
-/* Header navigation links (tabs) */
-.site-header .page-link {
-  color: #e6edf3 !important; /* light text */
+
+/* -------- Header navigation links (tabs) -------- */
+.site-header .page-link,
+.site-header .page-link:visited {
+  color: var(--text) !important;
+  opacity: 0.82;
 }
 
 .site-header .page-link:hover {
-  color: #7dd3fc !important; /* subtle blue hover */
+  color: var(--link) !important;
+  opacity: 1;
 }
 
+/* Keep the title bright */
 .site-header .site-title,
 .site-header .site-title:visited {
-  color: #e6edf3 !important;
+  color: var(--text) !important;
+}
+
+/* Active navigation tab (Minima marks current link) */
+.site-header .page-link.current {
+  opacity: 1;
+  border-bottom: 2px solid var(--link);
+  padding-bottom: 2px;
 }

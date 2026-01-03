@@ -1,0 +1,21 @@
+title: Cynthianfatkid
+description: "Blue-team Cybersecurity Analyst — detection • IR • automation"
+url: "https://cynthianfatkid.github.io"
+baseurl: ""
+theme: minima
+
+# Build settings
+markdown: kramdown
+
+# Sass settings (needed for assets/main.scss)
+sass:
+  style: compressed
+
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/Cynthianfatkid" }
+
+header_pages:
+  - projects.md
+  - about.md
+  - contact.md

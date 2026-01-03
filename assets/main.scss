@@ -1,0 +1,71 @@
+---
+# This front matter tells Jekyll to process the file.
+---
+
+@import "minima";
+
+/* -------- Dark palette overrides (always dark) -------- */
+:root {
+  --bg: #0b0f14;
+  --panel: #0f1620;
+  --text: #e6edf3;
+  --muted: rgba(230, 237, 243, 0.72);
+  --border: rgba(230, 237, 243, 0.14);
+  --link: #7dd3fc;
+  --link-hover: #bae6fd;
+  --code-bg: rgba(230, 237, 243, 0.06);
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.site-header, .site-footer {
+  background: var(--bg);
+  border-color: var(--border);
+}
+
+.site-title, .site-title:visited,
+.page-link, .page-link:visited {
+  color: var(--text);
+}
+
+a, a:visited {
+  color: var(--link);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+p, li {
+  color: var(--muted);
+}
+
+/* Panels / blocks */
+pre, code, .highlighter-rouge .highlight, blockquote {
+  background: var(--code-bg);
+  border-color: var(--border);
+}
+
+code {
+  color: var(--text);
+}
+
+/* Card-ish styling for post lists on the home page */
+.post-list > li, .home .post-list > li {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  background: var(--panel);
+}
+
+.post-list .post-link {
+  color: var(--text);
+}
+
+hr {
+  border-color: var(--border);
+}

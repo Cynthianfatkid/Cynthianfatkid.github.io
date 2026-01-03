@@ -1,24 +1,31 @@
-# Cynthianfatkid.github.io (Jekyll)
+# Cynthianfatkid.github.io
 
-A simple **Jekyll** site for GitHub Pages using the **Minima** theme + a custom **dark palette** override.
+🔗 **Live site:** https://cynthianfatkid.github.io
 
-## Run locally
+Blue-team Cybersecurity Analyst portfolio focused on **detection engineering,
+incident response, and defensive automation**.
 
-1) Install Ruby (and bundler) for your OS  
-2) In this folder:
+---
 
-```bash
-bundle install
-bundle exec jekyll serve
-```
+## About
+This repository contains the source code for my personal GitHub Pages site.
 
-Open: http://localhost:4000
+The site highlights practical blue-team security work, including:
+- Detection engineering (Sigma, KQL, SPL)
+- Incident response tooling and workflows
+- Defensive automation and lab experiments
+- Technical writeups and notes
 
-## Deploy
+For the actual content, visit the **live site**.
 
-Push to `main` in the repo named `Cynthianfatkid.github.io`.  
-GitHub Pages will build it automatically.
+---
 
-## Dark palette
+## Tech
+- GitHub Pages
+- Jekyll
+- Custom dark theme
 
-The dark styling lives in `assets/main.scss`.
+---
+
+## License
+MIT License

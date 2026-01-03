@@ -69,3 +69,16 @@ code {
 hr {
   border-color: var(--border);
 }
+/* Header navigation links (tabs) */
+.site-header .page-link {
+  color: #e6edf3 !important; /* light text */
+}
+
+.site-header .page-link:hover {
+  color: #7dd3fc !important; /* subtle blue hover */
+}
+
+.site-header .site-title,
+.site-header .site-title:visited {
+  color: #e6edf3 !important;
+}

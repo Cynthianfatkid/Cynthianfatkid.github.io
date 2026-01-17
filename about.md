@@ -10,4 +10,4 @@ My work focuses on building and improving detection capabilities by combining ne
 
 I’ve also contributed to the European defence project SESIOP, where I worked on security research and published a paper as part of the project’s work. Through this, I gained hands on experience applying security research in a high-trust, real-world context, with a strong emphasis on reliability, operational security, and detection driven outcomes.
 
-I’m especially interested in detection that is practical, explainable, and resilient against evasion, including building tools and rules using technologies like Zeek. Alongside this, I enjoy designing CTF challenges to create realistic scenarios that strengthen defensive thinking. If you’d like to connect or collaborate, feel free to reach out.
+I’m especially interested in SOC operations and SIEM-based detection, building alert logic and detection workflows that are practical, explainable, and resilient against evasion. Alongside this, I design CTF challenges for DDC or De Danske Cybermesterskaberne and Cyberskills. If you’d like to connect or collaborate, feel free to reach out.

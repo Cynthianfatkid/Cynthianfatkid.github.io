@@ -15,7 +15,7 @@ permalink: /contact/
     <span class="label">GitHub</span>
   </a>
 
-  <a class="contact-btn" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">
+  <a class="contact-btn" href="https://www.linkedin.com/in/severen-fernandes-36093616b/" target="_blank" rel="noopener">
     <span class="icon">
       <!-- LinkedIn -->
       <svg viewBox="0 0 24 24" aria-hidden="true">

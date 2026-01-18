@@ -25,7 +25,7 @@ permalink: /contact/
     <span class="label">LinkedIn</span>
   </a>
 
-  <a class="contact-btn" href="mailto:youremail@example.com">
+  <a class="contact-btn" href="cynandro@proton.me">
     <span class="icon">
       <!-- Mail -->
       <svg viewBox="0 0 24 24" aria-hidden="true">
